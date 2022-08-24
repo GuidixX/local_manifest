@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+      <!-- Remotes -->
+      <remote name="all"
+          fetch="https://github.com/"
+          clone-depth="1" /> 
+
+        <!-- Sync trees -->
+        <project path="device/xiaomi/olives" name="GuidixX/device_xiaomi_olives" remote="all" revision="lineage-18.1" />
+        <project path="vendor/xiaomi/olives" name="GuidixX/vendor_xiaomi_olives" remote="all" revision="lineage-18.1" />
+        <project path="kernel/xiaomi/sdm439" name="GuidixX/kernel_xiaomi_olives" remote="all" revision="a11/custom" />
+        <project path="vendor/xiaomi/sdm439-common" name="GuidixX/vendor_xiaomi_olives_common" remote="all" revision="11-R" />
+        <project path="device/xiaomi/sdm439-common" name="GuidixX/device_xiaomi_olives_common" remote="all" revision="lineage-18.1" />
+        
+        <!-- HALs -->  
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />  
+        <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="all" revision="lineage-18.1-caf-msm8996" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />  
+        <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="all" revision="lineage-18.1-caf-msm8996" /> 
+        <remove-project name="LineageOS/android_hardware_qcom_display" />  
+        <project path="hardware/qcom-caf/msm8996/display" name="mi-sdm439/android_hardware_qcom_display" remote="all" revision="lineage-18.1-caf-msm8996" />
+         
+        <!-- Extra -->
+        <remove-project name="LineageOS/android_packages_apps_FMRadio" />
+        <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="all" revision="lineage-18.1" clone-depth="1" />
+         
+</manifest>
