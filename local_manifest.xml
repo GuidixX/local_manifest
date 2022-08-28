@@ -24,7 +24,5 @@
         <!-- Extra -->
         <remove-project name="crdroidandroid/android_packages_apps_Settings" />
         <project path="package/apps/Settings" name="GuidixX/packages_apps_Settings" remote="all" revision="11.0" />
-        <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
-        <project path="package/apps/Settings/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="all" revision="11.0" />
-		
+     
 </manifest>
