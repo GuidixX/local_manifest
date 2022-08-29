@@ -7,7 +7,7 @@
           clone-depth="1" /> 
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/olive" name="GuidixX/device_xiaomi_olive" remote="all" revision="lineage-18.1" />
+        <project path="device/xiaomi/olive" name="GuidixX/device_xiaomi_olive" remote="all" revision="Lineage-18.1" />
         <project path="vendor/xiaomi/olive" name="GuidixX/vendor_xiaomi_olive" remote="all" revision="lineage-18.1" />
         <project path="kernel/xiaomi/sdm439" name="GuidixX/kernel_xiaomi_olive" remote="all" revision="a11/custom" />
         <project path="vendor/xiaomi/sdm439-common" name="GuidixX/vendor_xiaomi_olive_common" remote="all" revision="lineage-18.1" />
