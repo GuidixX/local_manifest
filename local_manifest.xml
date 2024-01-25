@@ -31,8 +31,8 @@
     <project path="hardware/st/nfc" remote="github" name="PixelExperience/hardware_st_nfc" revision="thirteen"/>
 
     <!-- spes device tree dependencies: -->
-    <project path="device/xiaomi/spes" remote="github" name="GuidixX/device_xiaomi_spes" revision="thirteen"/>
-    <project path="device/xiaomi/sm6225-common" remote="github" name="GuidixX/device_xiaomi_sm6225-common" revision="thirteen"/>
+    <project path="device/xiaomi/spes" remote="github" name="GuidixX/device_xiaomi_spes" revision="thrall"/>
+    <project path="device/xiaomi/sm6225-common" remote="github" name="GuidixX/device_xiaomi_sm6225-common" revision="thrall"/>
     <project path="device/xiaomi/sm6225-common-miuicamera" remote="github" name="AOSPA/android_device_xiaomi_sm6225-common-miuicamera" revision="topaz"/>
     
     <project path="kernel/xiaomi/sm6225" remote="github" name="GuidixX/kernel_xiaomi_spes" revision="DragonTurbo"/>
